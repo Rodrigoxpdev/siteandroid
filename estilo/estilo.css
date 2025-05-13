@@ -208,20 +208,20 @@ main img{
 
 
 
-
+/* AJUSTES DO VIDEO  */
 div.video {
-    background-color: var(--cor5);
-    margin: 0px -20px 30px -20px;
-    padding: 20px;
-    position: relative;
-    padding-bottom: 59%;
+    background-color: var(--cor5);  /* COR DO FUNDO DO VD */  
+    margin: 0px -20px 30px -20px;  /* T     D    B     E */
+    padding: 20px; /* T + D + B + E ,PREENCHIMENTO GERAL = VIDEO*/
+    position: relative;  /* POSIÇAO RELATIVA */
+    padding-bottom: 59%;  /* PREENCHIMENTO DE BAIXO DO VD */
 }
 div.video > iframe {
-    position: absolute;
-    top: 5%;
-    left: 5%;
-    width: 90%;
-    height: 90%;
+    position: absolute; /*VAI TER CONTROLE TOTAL DENTRO DA DIV*/
+    top: 5%;  /* POSIÇAO PARA CIMA */
+    left: 5%; /* POSIÇAO PARA ESQUERDA */
+    width: 90%; /* LARGURA DO OBJ */
+    height: 90%; /* ALTURA DO OBJ */
 }
 
 
@@ -261,24 +261,29 @@ div.video > iframe {
 
 /* COMPLEMENTO  */
 aside {
-    background-color: var(--cor1);
-    padding: 10px;
-    border-radius: 10px;
+     background-color: var(--cor1); /*COR DO CARD  */
+    padding: 10px; /* PREENCHIMENTO DO CARD */
+    border-radius: 10px; /*BORDA AREDONDADA DO CARD  */
 }
 
+/* CONFIG DA LISTA */
 aside > ul {
-    list-style-position: inside;
-    list-style-type: '🗸';
-    columns: 2;
+    /* POSIÇAO DA LISTA PARA DENTRO DO CARD OBS CAIXA */
+    list-style-position: inside; 
+    list-style-type: '🗸'; /* ESTILO DE LISTA COM ICONES */
+    columns: 2; /* NUMEROS DE COLUNAS NA LISTA */
 }
+
+/* CONFIG DO TITULO DA LISTA */
 aside > h3 {
-    background-color: var(--cor4);
-    color: white;
-    padding: 10px; 
+    background-color: var(--cor4); /*  */
+    color: white; /* COR DO TITULO */
+    padding: 10px; /* PREENCHIMENTO DO TEXTO */
+    
     /* margin negativa para puxar o elemento pra fora */
     margin: -10px -10px 0px -10px;
-    border-radius: 10px 10px 0px 0px ;
-    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.376);
+    border-radius: 10px 10px 0px 0px ;/*  */
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.376); /*  */
 }
 
 
